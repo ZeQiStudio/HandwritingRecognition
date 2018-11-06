@@ -1,3 +1,4 @@
 # MNIST-handwritingRecognize
-It's a demo about recognizing handwriting numbers based on MNIST data set without any frameworks.
-After 1000 times of training, its correct rate may get to about 88%. Sicerely hope that someone may change the algorithm to make this model better.
+>It's a demo about recognizing handwriting numbers in MNIST dataset, only using numpy. This little demo only use 3 FC layers to complete this little task.
+## result
+>After 1000 times of training, its correct rate may get to about 88%.
