@@ -115,9 +115,9 @@ def Predict(X_test,y_test,w1,w2,b1,b2):
 
 #-----------------------------------------
 #ReadData
-X_train,y_train=LoadData('/Users/chenzening/PycharmProjects/MNIST3.0/main','train')
+X_train,y_train=LoadData(os.getcwd(),'train')
 learningRate=0.4
 learningTimes=10000
 w1,w2,b1,b2=Learning(X_train,y_train,learningRate,learningTimes,0)
-X_test,y_test=LoadData('/Users/chenzening/PycharmProjects/MNIST3.0/main','t10k')
+X_test,y_test=LoadData(os.getcwd(),'t10k')
 Predict(X_test,y_test,w1,w2,b1,b2)
